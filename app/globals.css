@@ -160,7 +160,7 @@ img.mfp-img {
 }
 
 .college-nav {
-  background: #0f3d2e;
+  background: #0f163d;
   /* derived from logo */
 }
 
@@ -625,13 +625,20 @@ main>section:not(:first-child) {
   font-weight: 500;
 }
 
+.college-header__naac {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  /* spacing between logos */
+}
+
 .college-header__naac img {
   display: block;
 }
 
 /* Navigation */
 .college-header__nav {
-  background: #0f3d2e;
+  background: #0f163d;
 }
 
 .college-header__nav ul {

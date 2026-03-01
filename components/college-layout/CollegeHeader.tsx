@@ -38,6 +38,12 @@ export default function CollegeHeader() {
                         width={70}
                         height={70}
                     />
+                    <Image
+                        src="/assets/images/sqaaf.png"
+                        alt="NAAC A+ Grade"
+                        width={70}
+                        height={70}
+                    />
                 </div>
             </div>
 

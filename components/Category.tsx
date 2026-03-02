@@ -143,7 +143,7 @@ export const Category2 = ({
       id: 6,
       name: "Cyber",
       courses: 45,
-      img: "/assets/images/category/category-2/img-6.jpg",
+      img: "/assets/images/category/category-2/img-5.png",
       icon: "/assets/images/category/category-1/6.svg",
     },
     {

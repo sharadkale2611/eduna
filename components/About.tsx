@@ -200,7 +200,7 @@ export const About2 = () => {
                 <div className="counter-card__icon">
                   <i className="fi fi-rr-graduation-cap" />
                 </div>
-                <div className="counter-card__info">
+                {/* <div className="counter-card__info">
                   <h4>
                     <span className="counter">
                       <Counter end={9394} />
@@ -209,7 +209,7 @@ export const About2 = () => {
                   </h4>
                   <p>Enrolled Learners</p>
                 </div>
-              </div>
+              </div> */}
               <div className="ed-about__shapes">
                 <Image
                   width={79}

@@ -115,7 +115,7 @@ const Course1 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-8 col-12">
             <div className="ed-section-head text-center">
-              <span className="ed-section-head__sm-title">ONLINE COURSES</span>
+              {/* <span className="ed-section-head__sm-title">ONLINE COURSES</span> */}
               <h3 className="ed-section-head__title ed-split-text left">
                 Get Your Course With Us
               </h3>
@@ -197,7 +197,7 @@ export const Course2 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-8 col-12">
             <div className="ed-section-head text-center">
-              <span className="ed-section-head__sm-title">ONLINE COURSES</span>
+              {/* <span className="ed-section-head__sm-title">ONLINE COURSES</span> */}
               <h3 className="ed-section-head__title ed-split-text left">
                 Get Your Course With Us
               </h3>
@@ -622,91 +622,96 @@ export const Course5 = () => {
     name: string;
     title: string;
     lessons: number;
-    teacher: string;
-    teacherImage: string;
-    price: number;
-    students: number;
-    reviews: number;
+    // teacher: string;
+    // teacherImage: string;
+    // price: number;
+    // students: number;
+    // reviews: number;
     image: string;
   }[] = [
     {
       id: 1,
-      name: "Data Science",
-      title: "Grow Personal Financial Security Thinking & Principles",
+      name: "Arts and humanities ",
+      title: "Academic disciplines exploring human culture, expression, and experience through critical, historical, and creative methods",
       lessons: 23,
-      teacher: "Harrison Stone",
-      teacherImage:
-        "/assets/images/course/course-3/course-instructor-thumb-1.jpg",
-      price: 674,
-      students: 673,
-      reviews: 9,
+      // teacher: "Harrison Stone",
+      // teacherImage:
+      //   "/assets/images/course/course-3/course-instructor-thumb-1.jpg",
+      // price: 674,
+      // students: 673,
+      // reviews: 9,
       image: "/assets/images/course/course-4/1.png",
+      // teacher: "",
+      // teacherImage: "",
+      // price: 0,
+      // students: 0,
+      // reviews: 0
     },
     {
-      id: 2,
-      name: "Business",
-      title: "Data Competitive Strategy law and Organization Course",
+      id:  2,
+      name: "Commerce",
+      title: "Structured system of buying, selling, and distributing goods, services, or information, acting as the backbone of economic activity",
       lessons: 4,
-      teacher: "Alexander Wells",
-      teacherImage:
-        "/assets/images/course/course-3/course-instructor-thumb-2.jpg",
-      price: 633,
-      students: 964,
-      reviews: 67,
+      // teacher: "Alexander Wells",
+      // teacherImage:
+      //   "/assets/images/course/course-3/course-instructor-thumb-2.jpg",
+      // price: 633,
+      // students: 964,
+      // reviews: 67,
       image: "/assets/images/course/course-4/2.png",
     },
     {
       id: 3,
-      name: "Design",
-      title: "The Complete Guide to Build RESTful API Application",
+      name: "BBA",
+      title: "Providing foundational knowledge in management, marketing, finance, and entrepreneurship",
       lessons: 87,
-      teacher: "John Smith",
-      teacherImage:
-        "/assets/images/course/course-3/course-instructor-thumb-3.jpg",
-      price: 383,
-      students: 316,
-      reviews: 87,
+      // teacher: "John Smith",
+      // teacherImage:
+      //   "/assets/images/course/course-3/course-instructor-thumb-3.jpg",
+      // price: 383,
+      // students: 316,
+      // reviews: 87,
       image: "/assets/images/course/course-4/3.png",
     },
     {
       id: 4,
-      name: "Development",
-      title: "Exploring Learning Landscapes in Academic Business",
+      name: "BCA",
+      title: "Computer applications, software development, and information technology",
       lessons: 4,
-      teacher: "Gabriel Cross",
-      teacherImage:
-        "/assets/images/course/course-3/course-instructor-thumb-4.jpg",
-      price: 356,
-      students: 352,
-      reviews: 65,
+      // teacher: "Gabriel Cross",
+      // teacherImage:
+      //   "/assets/images/course/course-3/course-instructor-thumb-4.jpg",
+      // price: 356,
+      // students: 352,
+      // reviews: 65,
       image: "/assets/images/course/course-4/4.png",
     },
     {
       id: 5,
-      name: "Marketing",
-      title: "Voices from the Learning Manage Education Hub",
+      name: "M.Com",
+      title: "Advanced studies in commerce, accounting, finance, and business management",
       lessons: 4,
-      teacher: "Maxwell Ford",
-      teacherImage:
-        "/assets/images/course/course-3/course-instructor-thumb-5.jpg",
-      price: 643,
-      students: 553,
-      reviews: 23,
+      // teacher: "Maxwell Ford",
+      // teacherImage:
+      //   "/assets/images/course/course-3/course-instructor-thumb-5.jpg",
+      // price: 643,
+      // students: 553,
+      // reviews: 23,
       image: "/assets/images/course/course-4/5.png",
     },
-    {
-      id: 6,
-      name: "Marketing",
-      title: "Voices from the Learning Manage Education Hub",
-      lessons: 4,
-      teacher: "Maxwell Ford",
-      teacherImage:
-        "/assets/images/course/course-3/course-instructor-thumb-6.jpg",
-      price: 356,
-      students: 352,
-      reviews: 94,
-      image: "/assets/images/course/course-4/6.png",
-    },
+    // {
+    //   id: 6,
+    //   name: "Marketing",
+    //   title: "Voices from the Learning Manage Education Hub",
+    //   lessons: 4,
+    //   teacher: "Maxwell Ford",
+    //   teacherImage:
+    //     "/assets/images/course/course-3/course-instructor-thumb-6.jpg",
+    //   price: 356,
+    //   students: 352,
+    //   reviews: 94,
+    //   image: "/assets/images/course/course-4/6.png",
+    // },
   ];
   return (
     <section
@@ -718,9 +723,9 @@ export const Course5 = () => {
           <div className="col-12">
             <div className="ed-section-head d-flex-between">
               <div className="ed-section-head__info">
-                <span className="ed-section-head__sm-title">
+                {/* <span className="ed-section-head__sm-title">
                   ONLINE COURSES
-                </span>
+                </span> */}
                 <h3 className="ed-section-head__title m-0 ed-split-text left">
                   Get Your Course With Us
                 </h3>
@@ -919,7 +924,7 @@ export const Course6 = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-8 col-12">
             <div className="ed-section-head text-center">
-              <span className="ed-section-head__sm-title">ONLINE COURSES</span>
+              {/* <span className="ed-section-head__sm-title">ONLINE COURSES</span> */}
               <h3 className="ed-section-head__title ed-split-text left">
                 Get Your Course With Us
               </h3>

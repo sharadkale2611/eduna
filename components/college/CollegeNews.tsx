@@ -9,7 +9,7 @@ export default function CollegeNewsPrograms() {
 
                     {/* News Column */}
                     <div className="updates-column">
-                        <h2>News & Announcements</h2>
+                        <h2>News</h2>
                         <ul className="updates-list">
                             <li>
                                 <span className="date">05 Mar 2026</span>
@@ -62,6 +62,36 @@ export default function CollegeNewsPrograms() {
                             View All Programmes →
                         </Link>
                     </div>
+                    
+                    {/* Programmes Videos Column */}
+                    <div className="updates-column">
+                        <h2> Videos</h2>
+                        <ul className="updates-list">
+                            <li>
+                                <span className="date">10 Mar 2026</span>
+                                <span className="text">
+                                    National Seminar on Research Methodology
+                                </span>
+                            </li>
+                            <li>
+                                <span className="date">20 Mar 2026</span>
+                                <span className="text">
+                                    Workshop on Career Guidance for Final Year Students
+                                </span>
+                            </li>
+                            <li>
+                                <span className="date">25 Mar 2026</span>
+                                <span className="text">
+                                    Inter-College Cultural Programme
+                                </span>
+                            </li>
+                        </ul>
+                        <Link href="/programmes" className="view-all">
+                            View All  Videos →
+                        </Link>
+                    </div>
+
+                    
 
                 </div>
             </div>

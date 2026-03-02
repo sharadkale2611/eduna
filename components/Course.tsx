@@ -622,11 +622,11 @@ export const Course5 = () => {
     name: string;
     title: string;
     lessons: number;
-    // teacher: string;
-    // teacherImage: string;
-    // price: number;
-    // students: number;
-    // reviews: number;
+    reviews: number;
+    students: number;
+    teacher?: string;
+    teacherImage?: string;
+    price?: number;
     image: string;
   }[] = [
     {
@@ -634,30 +634,17 @@ export const Course5 = () => {
       name: "Arts and humanities ",
       title: "Academic disciplines exploring human culture, expression, and experience through critical, historical, and creative methods",
       lessons: 23,
-      // teacher: "Harrison Stone",
-      // teacherImage:
-      //   "/assets/images/course/course-3/course-instructor-thumb-1.jpg",
-      // price: 674,
-      // students: 673,
-      // reviews: 9,
+      reviews: 9,
+      students: 673,
       image: "/assets/images/course/course-4/1.png",
-      // teacher: "",
-      // teacherImage: "",
-      // price: 0,
-      // students: 0,
-      // reviews: 0
     },
     {
       id:  2,
       name: "Commerce",
       title: "Structured system of buying, selling, and distributing goods, services, or information, acting as the backbone of economic activity",
       lessons: 4,
-      // teacher: "Alexander Wells",
-      // teacherImage:
-      //   "/assets/images/course/course-3/course-instructor-thumb-2.jpg",
-      // price: 633,
-      // students: 964,
-      // reviews: 67,
+      reviews: 67,
+      students: 964,
       image: "/assets/images/course/course-4/2.png",
     },
     {
@@ -665,12 +652,8 @@ export const Course5 = () => {
       name: "BBA",
       title: "Providing foundational knowledge in management, marketing, finance, and entrepreneurship",
       lessons: 87,
-      // teacher: "John Smith",
-      // teacherImage:
-      //   "/assets/images/course/course-3/course-instructor-thumb-3.jpg",
-      // price: 383,
-      // students: 316,
-      // reviews: 87,
+      reviews: 87,
+      students: 316,
       image: "/assets/images/course/course-4/3.png",
     },
     {
@@ -678,12 +661,8 @@ export const Course5 = () => {
       name: "BCA",
       title: "Computer applications, software development, and information technology",
       lessons: 4,
-      // teacher: "Gabriel Cross",
-      // teacherImage:
-      //   "/assets/images/course/course-3/course-instructor-thumb-4.jpg",
-      // price: 356,
-      // students: 352,
-      // reviews: 65,
+      reviews: 65,
+      students: 352,
       image: "/assets/images/course/course-4/4.png",
     },
     {
@@ -691,12 +670,8 @@ export const Course5 = () => {
       name: "M.Com",
       title: "Advanced studies in commerce, accounting, finance, and business management",
       lessons: 4,
-      // teacher: "Maxwell Ford",
-      // teacherImage:
-      //   "/assets/images/course/course-3/course-instructor-thumb-5.jpg",
-      // price: 643,
-      // students: 553,
-      // reviews: 23,
+      reviews: 23,
+      students: 553,
       image: "/assets/images/course/course-4/5.png",
     },
     // {

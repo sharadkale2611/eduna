@@ -24,6 +24,7 @@
 }
 
 body {
+  background: #ffffff;
   font-size: var(--body);
   line-height: 1.65;
   color: var(--text-main);
@@ -469,6 +470,7 @@ img.mfp-img {
 }
 
 .college-footer-top {
+  padding: 30px;
   border-top: 1px solid var(--border-light);
   background: var(--bg-light);
 }

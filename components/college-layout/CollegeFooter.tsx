@@ -7,23 +7,15 @@ export default function CollegeFooter() {
             {/* Footer Top */}
             <div className="college-footer-top">
                 <div className="container footer-grid">
-
-                    {/* College Info */}
-                    <div>
-                        <h4>SBES College of Arts & Commerce</h4>
-                        <p>Chhatrapati Sambhajinagar</p>
-                        <p>Accredited by NAAC with A+ Grade</p>
-                    </div>
-
+                                                    
                     {/* Important Links */}
                     <div>
                         <h4>Important Links</h4>
                         <ul>
-                            <li><Link href="/mandatory-disclosure">Mandatory Disclosure</Link></li>
-                            <li><Link href="/rti">RTI</Link></li>
-                            <li><Link href="/iqac">IQAC</Link></li>
-                            <li><Link href="/grievance">Grievance Redressal</Link></li>
-                            <li><Link href="/anti-ragging">Anti-Ragging</Link></li>
+                            <li><Link href="/other-links/rti.pdf" target="blank">RTI</Link></li>
+                             <li><Link href="/rti" target="blank">ICC</Link></li>
+                             <li><Link href="/anti-ragging" target="blank">Anti-Ragging</Link></li>
+                             <li><Link href="/grievance" target="blank">Grievance Redressal</Link></li>
                         </ul>
                     </div>
 
@@ -31,25 +23,48 @@ export default function CollegeFooter() {
                     <div>
                         <h4>NAAC</h4>
                         <ul>
-                            <li><Link href="/naac">NAAC Overview</Link></li>
-                            <li><Link href="/naac/ssr">Self Study Report (SSR)</Link></li>
-                            <li><Link href="/naac/aqar">AQAR</Link></li>
-                            <li><Link href="/naac/best-practices">Best Practices</Link></li>
+                            <li><Link href="/naac/">IQAC</Link></li>
+                            <li><Link href="/naac/ssr">AQAR</Link></li>
+                            <li><Link href="/naac/aqar">NAAC</Link></li>
+                            <li><Link href="/naac/best-practices">NAAC Overview</Link></li>
+                            <li><Link href="/naac/aqar">SSR</Link></li>
+                        </ul>
+                    </div>
+                             
+
+                     {/* NAAC Section */}
+                    <div>
+                        <h4>Downloads</h4>
+                        <ul>
+                            <li><Link href="/naac">15A</Link></li>
+                            <li><Link href="/naac/ssr">TC Form</Link></li>
+                            
                         </ul>
                     </div>
 
+                     {/* Feedback Section */}
+                    <div>
+                        <h4>Feedback</h4>
+                        <ul>
+                            <li><Link href="https://forms.gle/AhNigDyrrTpM7mr46" target="_blank">Student's Feedback of Institutional Performance</Link></li>
+                            <li><Link href="/downloads/">Library Feedback Form</Link></li>
+                            <li><Link href="https://forms.gle/4Hmic5SEurH5q2Uo9" target="_blank">Syllabus B Feedback Form by Student</Link></li>
+                                <li><Link href="https://forms.gle/zonaReK3s5sez1k5A" target="_blank">Syllabus C Feedback Form by Teacher, Parents, Alumni, Employer</Link></li>
+                            <li><Link href="https://forms.gle/EfVnamWEXTqudKH79" target="_blank">Teacher's Feedback by Students Form</Link></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
             {/* Footer Middle */}
             <div className="college-footer-middle">
                 <p>
-                    Address: SBES College of Arts & Commerce, Chhatrapati Sambhajinagar,
-                    Maharashtra, India
+                    Address: Saraswati Colony, Aurangpura, Chhatrapati Sambhajinagar,
+                    Maharashtra, India. 431001
                 </p>
                 <p>
-                    Phone: <a href="tel:+912402345678">+91 240 234 5678</a> |
-                    Email: <a href="mailto:sbcollege@gmail.com">sbcollege@gmail.com</a>
+                    Phone: <a href="tel:+912402332040">+91 240 233 2040</a> |
+                    Email: <a href="mailto:sbescollegeac@yahoo.com">sbescollegeac@yahoo.com</a>
                 </p>
             </div>
 

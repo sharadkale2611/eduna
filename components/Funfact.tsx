@@ -77,10 +77,10 @@ export const Funfact2 = () => {
     value: number;
     color: string;
   }[] = [
-    { id: 1, name: "Student enrolled", value: 5923, color: "color-text-1" },
+    { id: 1, name: "Student enrolled", value: 4273, color: "color-text-1" },
     { id: 2, name: "Classes completed", value: 8497, color: "color-text-2" },
     { id: 3, name: "Learners report", value: 7554, color: "color-text-3" },
-    { id: 4, name: "Top instructors", value: 2755, color: "color-text-4" },
+    { id: 4, name: "Top instructors", value: 50, color: "color-text-4" },
   ];
   return (
     <section className="ed-funfact ed-funfact--style2">

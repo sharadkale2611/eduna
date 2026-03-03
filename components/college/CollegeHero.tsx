@@ -9,19 +9,25 @@ import "swiper/css/effect-fade";
 
 const slides = [
     {
-        image: "/assets/images/hero/slide-1.png",
+        image: "/assets/images/hero/slide-0.jpg",
+        title: "SARASWATI BHUVAN EDUCATION SOCIETY",
+        subtitle: "Established in 1915",
+        description: "Schools, Colleges",
+    },    
+    {
+        image: "/assets/images/hero/slide-1.jpg",
         title: "SBES College of Arts & Commerce",
-        subtitle: "Chhatrapati Sambhajinagar",
+        subtitle: "Established in 1963",
         description: "Accredited by NAAC with A+ Grade",
     },
     {
         image: "/assets/images/hero/slide-2.png",
-        title: "Academic Excellence Since 1975",
-        subtitle: "Arts & Commerce Streams",
+        title: "Academic Excellence",
+        subtitle: " Since 1963",
         description: "Committed to quality higher education",
     },
     {
-        image: "/assets/images/hero/slide-3.png",
+        image: "/assets/images/hero/slide-3.jpg",
         title: "Holistic Student Development",
         subtitle: "Academics • Sports • Culture",
         description: "Shaping responsible citizens",
@@ -59,7 +65,7 @@ export default function CollegeHero() {
                                     <h2>{slide.subtitle}</h2>
                                     <p>{slide.description}</p>
 
-                                    <div className="college-hero__actions">
+                                    {/* <div className="college-hero__actions">
                                         <Link
                                             href="/senior-college"
                                             className="hero-btn primary"
@@ -72,7 +78,7 @@ export default function CollegeHero() {
                                         >
                                             SB College Junior
                                         </Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

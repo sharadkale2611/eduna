@@ -1,6 +1,6 @@
 :root {
   /* Institutional color system */
-  --primary: #0f3d2e;
+  --primary: #0f163d;
   /* deep academic green */
   --accent: #6b0f1a;
   /* logo maroon */
@@ -372,12 +372,54 @@ img.mfp-img {
   padding: 60px 0;
   background: #ffffff;
 }
-
 .updates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.updates-column {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid #8b0000; /* optional accent line */
+  height: 100%;
+}
+
+.updates-column h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.updates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.updates-list li {
+  margin-bottom: 16px;
+}
+
+.date {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #b22222;
+  margin-bottom: 4px;
+}
+
+.text {
+  font-size: 15px;
+  color: #333;
+}
+/* .updates-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
-}
+} */
 
 .updates-column h2 {
   font-size: 22px;
@@ -408,7 +450,7 @@ img.mfp-img {
   display: inline-block;
   margin-top: 15px;
   font-weight: 500;
-  color: #0f3d2e;
+  color: #0f163d;
   text-decoration: none;
 }
 
@@ -432,9 +474,9 @@ img.mfp-img {
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: 2fr 1.5fr 1.5fr;
-  gap: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    gap: 10px;
 }
 
 .college-footer h4 {
@@ -454,7 +496,7 @@ img.mfp-img {
 }
 
 .college-footer a {
-  color: #0f3d2e;
+  color: #0f163d;
   text-decoration: none;
 }
 
@@ -586,7 +628,7 @@ main>section:not(:first-child) {
 
 .college-header__top nav a {
   margin-left: 18px;
-  color: #0f3d2e;
+  color: #0f163d;
   text-decoration: none;
   font-weight: 500;
 }

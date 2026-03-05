@@ -3,7 +3,6 @@ import Link from "next/link";
 export default function CollegeFooter() {
     return (
         <footer className="college-footer">
-
             {/* Footer Top */}
             <div className="college-footer-top">
                 <div className="container footer-grid">

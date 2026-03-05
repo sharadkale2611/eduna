@@ -7,7 +7,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="about-hero-pro">
   <div className="container hero-content">
-     <h1 align="center">About</h1>
+     <h1 style={{textAlign:'center'}} >About</h1>
       </div>
 </section>
 

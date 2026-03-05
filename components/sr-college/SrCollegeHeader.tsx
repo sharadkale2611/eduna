@@ -2,9 +2,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import "./CollegeHeader.css";
+import "./SrCollegeHeader.css";
 
-export default function CollegeHeader() {
+export default function SrCollegeHeader() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (

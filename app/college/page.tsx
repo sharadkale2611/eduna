@@ -1,4 +1,5 @@
 import CollegeLayout from "@/components/college-layout/CollegeLayout";
+import "./college.css";
 
 export default function AboutPage() {
   return (
@@ -30,7 +31,7 @@ export default function AboutPage() {
 
           <div className="stats-box">
             <div>
-              <h3>25+</h3>
+              <h3>60+</h3>
               <p>Years of Excellence</p>
             </div>
             <div>
@@ -90,16 +91,80 @@ export default function AboutPage() {
             />
           </div>
           <div>
-            <h2>Message from the Principal</h2>
-            <p>
-              At SBES College, we believe education is not merely about
-              acquiring knowledge but about shaping character and vision.
-              Our institution nurtures academic rigor alongside moral values.
+            <h2>Principal’s Message</h2>
+            <p align="justify">
+              As the Principal of the NAAC A+ accredited SBES College of Arts and Commerce,
+              Chhatrapati Sambhajinagar, it is my distinct pleasure to extend a heartfelt 
+              welcome to our prestigious institution.
             </p>
-            <p>
-              We strive to create responsible citizens equipped to face
-              global challenges with confidence and competence.
+
+            <p align="justify">
+              Established in 1963 under the patronage of the Saraswati Bhuvan Education
+             Society, our college has a proud legacy of delivering exemplary education
+             in the fields of Arts and Commerce. Our core philosophy — "To inculcate 
+             rational, universal values in our pursuit of excellence for a just society"
+              — reflects our unwavering commitment to fostering an environment where
+               students cultivate critical thinking, originality, and a strong sense of
+               civic responsibility.
             </p>
+
+            <p align="justify">
+              In alignment with this philosophy, our mission is to provide 
+              top-tier education by encouraging exploration, academic inquiry,
+               creativity, and social sensitivity — all essential to a vibrant 
+               civil society.
+            </p>
+
+            <p align="justify"> 
+              SBES College offers a broad array of academic programs, including 
+              bachelor’s degrees in BA, BCom, BCA, and BBA, catering to a diverse 
+              range of aspirations. We also offer a master’s degree in M.Com and 
+              host an Advanced Research Centre for pursuing a Ph.D. in Commerce.
+
+            </p>
+
+            <p align="justify">
+              Beyond traditional academics, we place a strong emphasis on 
+              practical skill development and experiential learning. We offer 
+              32 value-added certificate courses designed to equip students with
+               industry-relevant skills in areas such as Accounting, IT, Tally.
+            </p>
+
+            <p align="justify">
+              Our distinguished faculty members are leaders in their respective 
+              fields, deeply committed to mentoring and guiding students toward
+             academic and professional excellence.
+
+            </p>
+
+            <p align="justify">
+            We also prioritize the holistic development of our students.
+            Our state-of-the-art facilities — including a well-stocked library, 
+            modern computer labs, a fully equipped auditorium, extensive sports
+            facilities, and vibrant music and cultural events — provide countless
+            opportunities for students to explore their interests and talents.
+
+            </p>
+
+            <p align="justify">
+              At SBES College, we believe in nurturing not just knowledgeable 
+              individuals, but responsible citizens who contribute meaningfully to 
+              society. We encourage active participation in co-curricular and
+              extracurricular activities, fostering a spirit of teamwork and
+              social responsibility. We are also proud of our longstanding NCC
+              and NSS units, which embody our commitment to national service 
+              and leadership.
+
+           </p>
+
+            <p align="justify">
+              If you are seeking education that contributes to career building, character
+               building, and nation building, you are at the right place. Join us at SBES 
+               College of Arts and Commerce, Chhatrapati Sambhajinagar — an institution 
+               where heritage meets innovation, and where education becomes a transformative
+                force.
+            </p>
+            
             <h4>- Dr. Vivek Mirgane</h4>
           </div>
         </div>
@@ -112,11 +177,11 @@ export default function AboutPage() {
 
           <div className="timeline">
             <div className="timeline-item">
-              <span>1998</span>
+              <span>1963</span>
               <p>College Established</p>
             </div>
             <div className="timeline-item">
-              <span>2008</span>
+              <span>2010</span>
               <p>NAAC Accreditation Achieved</p>
             </div>
             <div className="timeline-item">
@@ -134,58 +199,30 @@ export default function AboutPage() {
       {/* CDC Section */}
 
       {/* Creative College Development Committee */}
-<section className="cdc-creative">
-  <div className="container">
+       <section className="table-section">
 
-    <div className="cdc-creative-header">
-      <h2>College Development Committee</h2>
-      <p>
-        Strategic leadership guiding academic excellence, governance,
-        and institutional growth.
-      </p>
-    </div>
+        <h4>Governing Council Committee (2023–2028)</h4>
 
-    {/* Chairman Highlight */}
-    <div className="cdc-creative-chairman">
-      <div className="cdc-highlight-card">
-        <img src="/cdc/chairman.jpg" alt="Chairman" />
-        <h3>Dr. ABC XYZ</h3>
-        <span>Chairman</span>
-      </div>
-    </div>
+        <div className="table-container">
+          <table className="college-table">
 
-    {/* Members Grid */}
-    <div className="cdc-creative-grid">
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Designation</th>
+              </tr>
+            </thead>
 
-      <div className="cdc-creative-card">
-        <img src="/cdc/principal.jpg" alt="Principal" />
-        <h4>Dr. Principal Name</h4>
-        <p>Member Secretary</p>
-      </div>
+            <tbody>
+              <tr><td>1</td><td>Shree Deepak Pande</td><td>President</td></tr>
+              <tr><td>2</td><td>Shree</td><td>Vice-President</td></tr>
+            </tbody>
 
-      <div className="cdc-creative-card">
-        <img src="/cdc/member1.jpg" alt="Member" />
-        <h4>Prof. Member One</h4>
-        <p>Faculty Representative</p>
-      </div>
+          </table>
+        </div>
 
-      <div className="cdc-creative-card">
-        <img src="/cdc/member2.jpg" alt="Member" />
-        <h4>Mr. Member Two</h4>
-        <p>Industry Representative</p>
-      </div>
-
-      <div className="cdc-creative-card">
-        <img src="/cdc/member3.jpg" alt="Member" />
-        <h4>Mrs. Member Three</h4>
-        <p>Social Representative</p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
+      </section>
     </CollegeLayout>
   );
 }

@@ -20,11 +20,20 @@ export default function AboutPage() {
           </div>
 
           {/* Right Content */}
-          <div className="about-content">
+          <div className="about-content" align="justify">
             <h2>About Us</h2>
             <p>
-              Discover a comprehensive range of professional academic programs
-              tailored to empower students with unmatched quality and reliability.
+              Established in 1915, Saraswati Bhuvan Education Society has immensely
+              contributed not only to education but also to public life of this region.
+              Motivated by the patriotic fervour many of its founding fathers had fought
+              for the freedom of Hyderabad State from the yoke of Nizam’s regime, post 
+              independence the fulcrum of socio-political-development movements of this 
+              region had been SB Education Society. SB, the centennial institution, is 
+              still one of the few institutions in the State whose members have made a 
+              mark in their respective fields and are those who value education and social 
+              commitment. The glorious traditions and the best practices of the years are 
+              still continued by adapting new trends with the changing times thereby making 
+              educational transaction relevant.
             </p>
           </div>
 
@@ -87,17 +96,25 @@ export default function AboutPage() {
           <div className="about-side">
             <div className="side-card">
               <h4>Our Vision</h4>
-              <p>
-                To be the most trusted and forward-thinking academic institution,
-                fostering excellence in education and holistic development.
+              <p align="justify">
+                To be a leading educational institution committed to holistic development, 
+                academic excellence, and strong moral values, fostering skilled, responsible, 
+                and socially conscious citizens dedicated to nation-building and societal progress.
               </p>
             </div>
 
             <div className="side-card">
               <h4>Our Commitment</h4>
-              <p>
-                We provide top-quality programs aligned with global standards
-                while upholding strong ethical values and social responsibility.
+              <p align="justify">
+                At Shri Saraswati Bhuvan Shikshan Sanstha, our commitment is to provide value-based, 
+                inclusive, and progressive education that nurtures the all-round development of every student. 
+                Rooted in our rich legacy since 1915, we strive to combine traditional knowledge with modern 
+                education to meet the evolving needs of society.  
+                We are dedicated to fostering excellence, skill development, 
+                innovation, and strong ethical values while promoting harmony and
+                cooperation within the educational community. Through continuous improvement, 
+                self-reliance, and a deep sense of national responsibility, we remain committed to 
+                contributing meaningfully to nation-building and social transformation.
               </p>
             </div>
           </div>
@@ -113,30 +130,32 @@ export default function AboutPage() {
 
           <h2 className="story-title">History</h2>
 
-          <div className="story-content">
-            <p>
-              Shree Saraswati Bhuvan Education Society was established in 1915
-              with just 25 students. Over the decades, the institution has
-              significantly expanded, now serving approximately 20,000 students
-              across its 10 secondary schools, 2 primary schools, 2 senior colleges,
-              1 CBSE school, and 2 hostels.
+          <div className="story-content" >
+            <p align="justify">
+             Before independence, ‘Marathwada’ was a part of the ‘Hyderabad State’, 
+             which was under the rule of the ‘Nizam.’ The medium of education was ‘Urdu’, 
+             and teaching in ‘Marathi’ was considered a challenge by the Nizam’s government. 
+             Despite such adverse and difficult circumstances, in 1915, visionary founders
+              ‘Adv. Shri. Panditrao (Anna Saheb) Pargaonkar’, ‘Adv. Shri. Rajarampant 
+              Rajchandra Pol’, ‘Shri. Vasant Balwant Vasishth’, and’ Shri. Digambardasji Chaudhary’ 
+              obtained permission from the Nizam Government to provide education in Marathi and took 
+              steps to awaken a national spirit among students, thus laying the foundation of the 
+              ‘Shri Saraswati Bhuwan Education Society’ in Chhatrapati Sambhajinagar (Maharashtra). 
+              Notably, in 1916, when girls could not even imagine stepping out of their homes, we took the
+              progressive and enlightened decision to start the ‘Sharda Mandir Kanya Prashala- ‘a school for 
+              girls’, to commence girls’ education.
 
-              Thousands of alumni are at the forefront in various fields in India
-              and abroad. The Society has immensely contributed not only to education
-              but also to uplifting public life in the region.
-
-              Motivated by patriotic fervour, many founding members fought for the
-              freedom of Hyderabad State from the Nizam regime. Post-independence,
-              the Society became a fulcrum of socio-political development movements
-              in the region.
-
-              In 2000, Shri Saraswati Bhuvan Education Society received the
-              prestigious “Ideal Educational Institution – State Award for
-              Meritorious Public Service in the Educational and Social Sector”
-              from the Government of Maharashtra.
-
-              Today, the institution holds a distinguished position across
-              Marathwada and Maharashtra.
+              </p>
+              
+              <p align="Justify">
+                The founders of our institution were committed to values and the moral framework, and this 
+                tradition continues to till date. One of the former Secretaries of the institution and Member 
+                of Parliament Late Bhauseheb Vaishampayan made relentless efforts for the institution’s expansion 
+                in rural area. The modern architect of the institution were freedom fighters of the Hyderabad 
+                Liberation Movement. The former president of the institution Late Govindbhai Shroff was honoured 
+                with the ‘Padma Vibhushan’. The institution has steadfastly maintained the crucial principle of not 
+                turning education into a commercial enterprise while promoting noble human values. The staff and 
+                employees of our society are not merely workers but are educational activists and our collaborators.  
             </p>
           </div>
 

@@ -12,9 +12,9 @@ export default function CollegeFooter() {
                         <h4>Important Links</h4>
                         <ul>
                             <li><Link href="/other-links/rti.pdf" target="blank">RTI</Link></li>
-                             <li><Link href="/rti" target="blank">ICC</Link></li>
-                             <li><Link href="/anti-ragging" target="blank">Anti-Ragging</Link></li>
-                             <li><Link href="/grievance" target="blank">Grievance Redressal</Link></li>
+                             <li><Link href="/other-links/icc.pdf" target="blank">ICC</Link></li>
+                             <li><Link href="/other-links/Anti-Ragging.pdf" target="blank">Anti-Ragging</Link></li>
+                             <li><Link href="//other-links/Grievance-Redressal.pdf" target="blank">Grievance Redressal</Link></li>
                         </ul>
                     </div>
 
@@ -35,8 +35,9 @@ export default function CollegeFooter() {
                     <div>
                         <h4>Downloads</h4>
                         <ul>
-                            <li><Link href="/naac">15A</Link></li>
-                            <li><Link href="/naac/ssr">TC Form</Link></li>
+                            <li><Link href="/downloads/">15A</Link></li>
+                            <li><Link href="/downloads/">TC Form</Link></li>
+                            <li><Link href="/downloads/alumni.pdf">Alumni</Link></li>
                             
                         </ul>
                     </div>

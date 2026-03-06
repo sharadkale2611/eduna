@@ -39,7 +39,7 @@ export default function SrCollegeHeader() {
                         </p>
                         <h1>SBES College of Arts & Commerce</h1>
                         <p className="accreditation">
-                            Accredited by NAAC & SQAAF with A+ Grade
+                            Accredited by NAAC with A+ Grade
                         </p>
                     </div>
                 </div>
@@ -51,12 +51,12 @@ export default function SrCollegeHeader() {
                         width={60}
                         height={60}
                     />
-                    <Image
+                    {/* <Image
                         src="/assets/images/sqaaf.png"
                         alt="SQAAF A+"
                         width={60}
                         height={60}
-                    />
+                      /> */}
                 </div>
             </div>
 
@@ -73,16 +73,24 @@ export default function SrCollegeHeader() {
                     <ul className={`menu ${menuOpen ? "open" : ""}`}>
                         <li><Link href="/">Home</Link></li>
                         <li className="menu-item-has-children">
-                          <Link href="/sbes">About</Link>
+                          <Link href="/programme">Programme</Link>
                           <ul className="sub-menu">
-                            <li><Link href="/sbes">SBES Organization</Link></li>
-                            <li><Link href="/college">College</Link></li>
-                          </ul>
+                            <li><Link href="/UG">Under Graduation</Link></li>
+                            <li><Link href="/PG">Post Graduation</Link></li>
+                            <li><Link href="/BBA">PhD</Link></li>
+                            <li><Link href="/BCA">Certificates</Link>
+                        </li>
+                     </ul>
                         </li>
 
-                        <li><Link href="/srcollege">Senior College</Link></li>
-                        <li><Link href="/naac">Junior College</Link></li>
-                        <li><Link href="/contact">Contact</Link></li>
+                        <li><Link href="/department">Department</Link></li>
+                         <li><Link href="/faculty">Falulty</Link></li>
+                        <li><Link href="/facilities">Facilities</Link></li>
+                        <li><Link href="/scholarship ">Scholarship </Link></li>
+                        <li><Link href="/Research ">Research </Link></li>
+                        <li><Link href="/library ">Library </Link></li>
+                        <li><Link href="/naac ">NAAC </Link></li>
+                        <li><Link href="/contact ">Contact </Link></li>
                     </ul>
                 </div>
             </nav>

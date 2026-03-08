@@ -8,6 +8,7 @@ import { Fragment, useEffect } from "react";
 import niceSelect from "react-nice-select";
 import Footer from "./Footer";
 import Header from "./Header";
+import SrCollegeHeader from "@/components/sr-college/SrCollegeHeader";
 const EdunaLayout = ({
   children,
   header,
@@ -26,9 +27,10 @@ const EdunaLayout = ({
   }, []);
   return (
     <Fragment>
-      <VideoPopup />
-      <ImageView />
-      <Header header={header ?? 1} />
+      {/* <VideoPopup /> */}
+      {/* <ImageView /> */}
+      {/* <Header header={header ?? 1} /> */}
+      <SrCollegeHeader/>
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>{children}</main>

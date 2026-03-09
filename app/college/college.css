@@ -345,3 +345,96 @@
         grid-template-columns: 1fr;
     }
 }
+
+
+/* Durgesh CSS */
+/* Pricipal Desk */
+/* Container and Grid Setup */
+.leadership-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.leadership-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Photo Styling */
+.leadership-image-container {
+  flex: 1;
+  max-width: 350px;
+  position: sticky; /* Keeps photo visible as they read */
+  top: 20px;
+}
+
+.principal-photo {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 5px solid #fff;
+}
+
+.principal-name-tag {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.principal-name-tag h4 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.25rem;
+}
+
+/* Content Styling */
+.leadership-content {
+  flex: 2;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #1a2a6c;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #f2a900; /* Gold/Accent color */
+  margin-top: 10px;
+}
+
+.message-body p {
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.closing-statement {
+  font-weight: 600;
+  color: #1a2a6c;
+  border-left: 4px solid #f2a900;
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .leadership-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .leadership-image-container {
+    max-width: 100%;
+    position: static;
+  }
+}

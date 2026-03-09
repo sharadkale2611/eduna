@@ -9,6 +9,7 @@ import niceSelect from "react-nice-select";
 import Footer from "./Footer";
 import Header from "./Header";
 import SrCollegeHeader from "@/components/sr-college/SrCollegeHeader";
+import SrCollegeFooter from "@/components/sr-college/SrCollegeFooter";
 const EdunaLayout = ({
   children,
   header,

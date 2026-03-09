@@ -83,22 +83,7 @@ const page = () => {
       </section> */}
 
 
-{/* 
 
-    Home 
-    About #
-        * about1 *              * about2 *          * about3 *
-         link 1                     link 1              link 1
-         link 1                     link 1              link 1
-         link 1                     link 1              link 1
-         link 1                     link 1              link 1
-         link 1                     link 1              link 1
-
-    Contact
-        -dfdfkds
-
-
-*/}
 
 
 
@@ -106,7 +91,7 @@ const page = () => {
       <Partner1 containerClass="ed-partner section-gap section-bg-color-1" />
 
       <WhyChooseArea3 />
-      {/* <Funfact2 /> */}
+      <Funfact2 />
       {/* <Category2 /> */}
       {/* <Course5 /> */}
       {/* <CallToAction2 /> */}

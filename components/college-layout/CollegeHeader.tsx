@@ -80,8 +80,8 @@ export default function CollegeHeader() {
                           </ul>
                         </li>
 
-                        <li><Link href="/srcollege/home">Senior College</Link></li>
-                        <li><Link href="/naac">Junior College</Link></li>
+                        <li><Link href="/srcollege">Senior College</Link></li>
+                        <li><Link href="/jrcollege">Junior College</Link></li>
                         <li><Link href="/contact">Contact</Link></li>
                     </ul>
                 </div>

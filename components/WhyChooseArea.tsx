@@ -226,11 +226,11 @@ export const WhyChooseArea2 = () => {
 export const WhyChooseArea3 = () => {
   return (
     <section className="ed-why-choose ed-why-choose--style3 section-gap position-relative">
-      <img
+      {/* <img
         className="ed-w-choose__shape-3"
         src="assets/images/why-choose/why-choose-3/shape-3.svg"
         alt="pattern-3"
-      />
+      /> */}
       <div className="container ed-container">
         <div className="row">
           <div className="col-lg-6 col-12">
@@ -297,6 +297,8 @@ export const WhyChooseArea3 = () => {
                   src="assets/images/why-choose/why-choose-3/img-1.png"
                   alt="why-choose-img-1"
                 />
+
+                <p></p>
                 <img
                   className="why-choose-img-2"
                   src="assets/images/why-choose/why-choose-3/img-2.png"

@@ -6,14 +6,14 @@ import { Course5 } from "@/components/Course";
 import { Features1 } from "@/components/Features";
 import { Funfact2 } from "@/components/Funfact";
 import { Partner1 } from "@/components/Partner";
+import SrCollegeLayout from "@/components/sr-college/SrCollegeLayout";
 import { Testimonial3 } from "@/components/Testimonial";
 import { WhyChooseArea3, WhyChooseArea5 } from "@/components/WhyChooseArea";
 import EdunaLayout from "@/layout/EdunaLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <EdunaLayout header={3} footer={2}>
-        
+    <SrCollegeLayout>
       {/* <section className="ed-hero ed-hero--style3">
         <div className="owl-carousel ed-hero__slider">
           Single Slider 
@@ -100,7 +100,7 @@ const page = () => {
       {/* <Testimonial3 /> */}
       {/* <Contact /> */}
       {/* <Blog1 /> */}
-    </EdunaLayout>
+    </SrCollegeLayout>
   );
 };
 export default page;

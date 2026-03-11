@@ -18,8 +18,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Eduna - Online Education Courses React NextJS Template",
-  description: "Eduna - Online Education Courses React NextJS Template",
+  title: "SBES - College of Arts & Commerce",
+  description: "SBES - College of Arts & Commerce",
 };
 
 export default function RootLayout({

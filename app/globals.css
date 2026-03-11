@@ -885,3 +885,84 @@ hr {
     text-align: center;
   }
 }
+
+
+.committee-page{
+display:flex;
+gap:30px;
+padding:40px;
+background:#f6f6f6;
+}
+
+/* Sidebar */
+
+.committee-sidebar{
+width:280px;
+background:#fff;
+border-radius:12px;
+box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+.committee-sidebar ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.committee-sidebar li{
+padding:18px 20px;
+border-bottom:1px solid #eee;
+font-weight:500;
+cursor:pointer;
+color:#1c2b40;
+}
+
+.committee-sidebar li.active{
+color:#ff8c00;
+}
+
+/* Content */
+
+.committee-content{
+flex:1;
+}
+
+.committee-content h2{
+font-size:28px;
+color:#0d2a4a;
+margin-bottom:8px;
+}
+
+.ic{
+margin-bottom:20px;
+font-size:18px;
+}
+
+/* Table */
+
+.committee-table{
+width:100%;
+border-collapse:collapse;
+background:#fff;
+border-radius:10px;
+overflow:hidden;
+}
+
+.committee-table thead{
+background:#071d3a;
+color:white;
+}
+
+.committee-table th{
+padding:15px;
+text-align:left;
+}
+
+.committee-table td{
+padding:15px;
+border-bottom:1px solid #e4e4e4;
+}
+
+.committee-table tbody tr:nth-child(even){
+background:#f3f3f3;
+}

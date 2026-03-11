@@ -1,0 +1,84 @@
+.student-container{
+display:grid;
+grid-template-columns:260px 1fr;
+gap:40px;
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* Sidebar */
+
+.sidebar{
+background:#f2f2f2;
+border-radius:10px;
+padding:20px;
+height:fit-content;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+
+.sidebar li{
+padding:14px 10px;
+border-bottom:1px solid #ddd;
+cursor:pointer;
+transition:0.3s;
+font-size:15px;
+}
+
+.sidebar li:hover{
+color:#ff8800;
+}
+
+/* Right Content */
+
+.content p{
+line-height:1.8;
+color:#444;
+text-align:justify;
+}
+
+.title{
+margin-bottom:20px;
+color:#5a6c8a;
+font-weight:600;
+}
+
+.content p{
+line-height:1.8;
+color:#444;
+}
+
+.top-menu{
+display:flex;
+gap:10px;
+margin-bottom:20px;
+}
+
+.top-menu button{
+padding:8px 14px;
+border:none;
+background:#f2f2f2;
+cursor:pointer;
+border-radius:4px;
+}
+
+.top-menu button:hover{
+background:#ff8800;
+color:white;
+}
+
+.bullet-list{
+margin-top:15px;
+padding-left:20px;
+line-height:1.8;
+}
+
+.bullet-list li{
+margin-bottom:8px;
+}
+

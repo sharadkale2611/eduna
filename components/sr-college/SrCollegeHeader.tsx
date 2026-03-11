@@ -86,7 +86,7 @@ export default function SrCollegeHeader() {
                         <li><Link href="/department">Department</Link></li>
                          <li><Link href="/faculty">Falulty</Link></li>
                         <li><Link href="/srcollege/facilities">Facilities</Link></li>
-                        <li><Link href="/scholarship ">Scholarship </Link></li>
+                        <li><Link href="/srcollege/student ">Student </Link></li>
                         <li><Link href="/Research ">Research </Link></li>
                         <li><Link href="/library ">Library </Link></li>
                         <li><Link href="/srcollege/naac ">NAAC </Link></li>

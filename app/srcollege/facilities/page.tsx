@@ -1,6 +1,6 @@
 import Image from "next/image";
 import CollegeLayout from "@/components/sr-college/SrCollegeLayout";
-export default function AboutPage() {
+export default function facility() {
   return (
     <CollegeLayout>
       <div className="facilities-container">
@@ -171,6 +171,115 @@ export default function AboutPage() {
             <Image src="/facilities/fc10.jpg" alt="Building" width={1400} height={900} />
           </div> */}
         </div>
+
+
+         {/* ICT Enabled Classrooms */}
+        <div className="facility-row">
+          {/* <div className="facility-img">
+            <Image src="/facilities/fc12.jpg" alt="Sports" width={2200} height={1800} />
+          </div> */}
+
+          <div className="facility-text">
+            <h3>ICT Enabled Classrooms</h3>
+            <p>
+              The ground and first floor of our college building are having Wi-Fi inter-facility. 
+              The classrooms on these two floors are equipped with green, white and blackboards and 
+              also with roof mounted digital laser projector and screen. All these classrooms also have
+              public address system.s.
+            </p>
+          </div>
+
+          <div className="facility-img">
+            <Image src="/facilities/fc13.jpg" alt="Building" width={1700} height={1000} />
+          </div>
+        </div>
+
+
+        {/* Language Lab */}
+        <div className="facility-row">
+          <div className="facility-img">
+            <Image src="/facilities/fc14.jpg" alt="Sports" width={2200} height={1800} />
+          </div>
+
+          <div className="facility-text">
+            <h3>Language Lab</h3>
+            <p>
+              SBES College of Arts and Commerce is having a language laboratory supported by ACEN hardware
+               and software. It facilitates the inculcation of language competencies in our students. Apart 
+               from spoken English College is looking forward to make available German and Japanese 
+               language courses. Language lab also offers faculty development programme for school teachers.
+            </p>
+          </div>
+
+          {/* <div className="facility-img">
+            <Image src="/facilities/fc13.jpg" alt="Building" width={1400} height={900} />
+          </div> */}
+        </div>
+
+
+        {/* Girl's Common Room */}
+        <div className="facility-row">
+          {/* <div className="facility-img">
+            <Image src="/facilities/fc14.jpg" alt="Sports" width={2200} height={1800} />
+          </div> */}
+
+          <div className="facility-text">
+            <h3>Girl's Common Room</h3>
+            <p>
+              The college provides the facility of a specious and secured common room only for its girl 
+              students. During proxies and recess, girls can have their privacy and relax there.
+            </p>
+          </div>
+
+          <div className="facility-img">
+            <Image src="/facilities/fc15.jpg" alt="Building" width={1000} height={800} />
+          </div>
+        </div>
+
+
+        {/* Cafeteria */}
+        <div className="facility-row">
+          <div className="facility-img">
+            <Image src="/facilities/fc17.jpg" alt="Sports" width={1400} height={800} />
+          </div>
+
+          <div className="facility-text">
+            <h3>Cafeteria</h3>
+            <p>
+              Cafeteria of the college is the most sought after space in student's life for connecting
+              with friends, discussion for hours, memories to cherish. College Cafeteria serves hygienic
+              snacks at an affordable cost for all the students.
+            </p>
+          </div>
+
+          {/* <div className="facility-img">
+            <Image src="/facilities/fc15.jpg" alt="Building" width={1400} height={900} />
+          </div> */}
+        </div>
+
+          
+        {/* Office */}
+        <div className="facility-row">
+          {/* <div className="facility-img">
+            <Image src="/facilities/fc17.jpg" alt="Sports" width={1400} height={800} />
+          </div> */}
+
+          <div className="facility-text">
+            <h3>Office</h3>
+            <p>
+              The college is having an efficient office with full automation. The office makes use of
+               ERP solutions for business transactions. Computerised admission system and online 
+               integration to the university and governmental portals is made available here. The ambience
+                of the office is conducive for effective working.
+            </p>
+          </div>
+
+          <div className="facility-img">
+            <Image src="/facilities/fc18.jpg" alt="Building" width={1600} height={1400} />
+          </div>
+        </div>
+        
+
 
       </div>
     </CollegeLayout>

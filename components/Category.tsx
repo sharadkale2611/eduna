@@ -185,11 +185,12 @@ export const Category2 = ({
                 titleCenter ? "text-center" : "text-left"
               }`}
             >
-              <span className="ed-section-head__sm-title">
-                COURSE CATEGORIES
-              </span>
+              <h2>
+                Certificate Courses
+              </h2>
+              
               <h3 className="ed-section-head__title m-0 ed-split-text left">
-                Top Categories You Want to&nbsp;Learn
+                Top Categories You Want to Learn
               </h3>
             </div>
           </div>

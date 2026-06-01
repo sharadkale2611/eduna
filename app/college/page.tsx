@@ -7,25 +7,37 @@ export default function AboutPage() {
 
       {/* Hero Section */}
       <section className="about-hero-pro">
-  <div className="container hero-content">
-     <h1 style={{textAlign:'center'}} >About</h1>
+       <div className="container hero-content">
+       <h1 style={{textAlign:'center'}} >About</h1>
       </div>
-</section>
+     </section>
 
       {/* Institutional Overview */}
       <section className="about-overview">
         <div className="container overview-grid">
-          <div>
+          <div align="justify">
             <h2>Institutional Overview</h2>
             <p>
-              Established with a vision to empower students through
-              accessible and quality education, SBES College of Arts & Commerce has grown
-              into a respected center of higher learning in
-              Chhatrapati Sambhajinagar.
+             &nbsp; &nbsp; &nbsp; Today we are living in the borderless world seemingly made small by the wonders of 
+              Information and Technology with the advent of a global economy. Political, social, 
+              economic and cultural changes have all led to increasing awareness of the need to 
+              understand the world from a range of perspective and have created a demand for people
+               with specialization and competencies.
             </p>
             <p>
-              The college fosters intellectual growth, ethical values,
-              leadership skills, and social responsibility among students.
+              &nbsp; &nbsp; &nbsp; SBES College of Arts and Commerce provides and develops the skill set requirements of the 
+              students necessary to face the challenges of the times. The society and the college have a 
+              long and distinguished history in the domain of education, which is increasingly becoming 
+              challenging, interesting and dynamic learning experience.
+            </p>
+
+            <p>
+              &nbsp; &nbsp; &nbsp; The SBES College of Arts and Commerce is affiliated to Dr. Babasaheb Ambedkar Marathwada
+              University, Chhatrapati Sambhaji Nagar. The College has now branched out in various streams
+              of education. Many courses have been introduced at UG and PG level to meet the new 
+              challenges and demands in education. BA with Indian Classical Music and Dramatics is very
+              well appreciated. The average strength of senior college students since last few years is 
+              almost 3000 out of which more than 55% are girls students.
             </p>
           </div>
 
@@ -52,29 +64,24 @@ export default function AboutPage() {
           <div className="vm-card">
             <h3>Our Vision</h3>
             <p>
-              To be a leading institution committed to academic excellence,
-              innovation, and character building.
+              “To inculcate rational universal values in its pursuit to achieve excellence for a just society.”
             </p>
           </div>
 
           <div className="vm-card">
             <h3>Our Mission</h3>
-            <ul>
-              <li>Deliver quality education aligned with global standards</li>
-              <li>Encourage research and innovation</li>
-              <li>Promote ethical and social responsibility</li>
-              <li>Prepare students for lifelong success</li>
-            </ul>
+              <p>
+                “To provide quality education by promoting inquiry, research,
+                 scholarship, creativity and social sensitivity for civil society.”
+              </p>
           </div>
 
           <div className="vm-card">
-            <h3>Core Values</h3>
-            <ul>
-              <li>Integrity</li>
-              <li>Excellence</li>
-              <li>Inclusivity</li>
-              <li>Accountability</li>
-            </ul>
+            <h3>Objectives</h3>
+            <p>
+              "To provide besides formal education, the professional and career oriented courses to be 
+              persuaded simultaneously to compliment traditional, fundamental and liberal education."
+            </p>
           </div>
         </div>
       </section>
@@ -173,7 +180,7 @@ export default function AboutPage() {
       {/* Creative College Development Committee */}
        <section className="table-section">
 
-        <h4>College Development Committee (2023–2028)</h4>
+        <h4>College Development Committee </h4>
 
         <div className="table-container">
           <table className="college-table">
@@ -187,14 +194,55 @@ export default function AboutPage() {
             </thead>
 
             <tbody>
-              <tr><td>1</td><td>Shree Deepak Pande</td><td>President</td></tr>
-              <tr><td>2</td><td>Shree</td><td>Vice-President</td></tr>
+              <tr><td>1</td><td>Shree Deepak Pande</td><td>Chairman</td></tr>
+              <tr><td>2</td><td>C.A. Mukesh Hundiwala</td><td>Society Secretary Reprecentative</td></tr>
+              <tr><td>3</td><td>Mr. Ajay Shah</td><td>Society Reprecentative "Social Service</td></tr>
+              <tr><td>4</td><td>Mr. Anil R. Mali</td><td>Society Reprecentative "Business"</td></tr>
+              <tr><td>5</td><td>Mrs. Anil R. Mali</td><td>Society Reprecentative "Education"</td></tr>
+              <tr><td>6</td><td>Mrs. Chhaya Mahajan</td><td>Society Reprecentative "Research"</td></tr>
+              <tr><td>7</td><td>Dr. Kishor V. Shirsath</td><td>Prof.  Reprecentative </td></tr>
+              <tr><td>8</td><td>Mr. Sunil O. Dighule</td><td>Non-Teaching Reprecentative</td></tr>
+              <tr><td>9</td><td>Dr. Anand V. Chaudhary</td><td>Vice-Principal</td></tr>
+              <tr><td>10</td><td>Dr. Sandeep M.Chaudhari</td><td>Vice-Principal</td></tr>
+              <tr><td>11</td><td>Dr. Vikrant U. Panchal</td><td>Coordinator, IQAC</td></tr>
+              <tr><td>12</td><td>Dr. Gajanan Sanap</td><td>Permanent Invited Member</td></tr>
+              <tr><td>13</td><td>Dr. Vivek R. Mirgane</td><td>Principal</td></tr>
             </tbody>
 
           </table>
         </div>
 
       </section>
+
+      {/* College Coordinator Committee */}
+       <section className="table-section">
+
+        <h4>College Coordinator Committee </h4>
+
+        <div className="table-container">
+          <table className="college-table">
+
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Designation</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr><td>1</td><td>Dr. Ulhas Shiurkar</td><td>Chairman</td></tr>
+              <tr><td>2</td><td>Dr. Rashmi Borikar</td><td>Joint Secretary, SBES</td></tr>
+              <tr><td>3</td><td>Adv. Rameshwar Totla</td><td>Joint Secretary, SBES</td></tr>
+              <tr><td>4</td><td>Dr. Sunil Deshpande</td><td>Joint Secretary, "Invited" SBES</td></tr>
+                          
+            </tbody>
+
+          </table>
+        </div>
+
+      </section>
+
     </CollegeLayout>
   );
 }

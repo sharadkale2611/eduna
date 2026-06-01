@@ -621,21 +621,21 @@ export const Course5 = () => {
     id: number;
     name: string;
     title: string;
-    lessons: number;
-    reviews: number;
-    students: number;
-    teacher?: string;
-    teacherImage?: string;
-    price?: number;
-    image: string;
+    // lessons: number;
+    // reviews: number;
+    // students: number;
+    // teacher?: string;
+    // teacherImage?: string;
+    // price?: number;
+    // image: string;
   }[] = [
     {
       id: 1,
       name: "Arts and humanities ",
       title: "Academic disciplines exploring human culture, expression, and experience through critical, historical, and creative methods",
-      lessons: 23,
-      reviews: 9,
-      students: 673,
+      // lessons: 23,
+      // reviews: 9,
+      // students: 673,
       image: "/assets/images/course/course-4/1.png",
     },
     {
@@ -698,7 +698,8 @@ export const Course5 = () => {
           <div className="col-12">
             <div className="ed-section-head d-flex-between">
               <div className="ed-section-head__info">
-                {/* <span className="ed-section-head__sm-title">
+                {/* <s
+                pan className="ed-section-head__sm-title">
                   ONLINE COURSES
                 </span> */}
                 <h3 className="ed-section-head__title m-0 ed-split-text left">
@@ -733,7 +734,7 @@ export const Course5 = () => {
                 <div className="ed-course__body">
                   <div className="ed-course__rattings mg-btm-10">
                     <ul>
-                      <li>
+                      {/* <li>
                         <i className="icofont-star" />
                       </li>
                       <li>
@@ -747,15 +748,15 @@ export const Course5 = () => {
                       </li>
                       <li>
                         <i className="icofont-star" />
-                      </li>
+                      </li> */}
                       <li>
-                        <span>
+                        {/* <span>
                           (
                           {course.reviews > 9
                             ? course.reviews
                             : "0" + course.reviews}{" "}
                           Reviews)
-                        </span>
+                        </span> */}
                       </li>
                     </ul>
                   </div>
@@ -764,25 +765,25 @@ export const Course5 = () => {
                   </Link>
                   <div className="ed-course__lesson m-0">
                     <div className="ed-course__part">
-                      <i className="fi-rr-book" />
-                      <p>{course.lessons} Lessons</p>
+                      {/* <i className="fi-rr-book" />
+                      <p>{course.lessons} Lessons</p> */}
                     </div>
                     <div className="ed-course__students">
-                      <i className="fi fi-rr-graduation-cap" />
-                      <p>{course.students} Students</p>
+                      {/* <i className="fi fi-rr-graduation-cap" />
+                      <p>{course.students} Student</p> */}
                     </div>
                   </div>
                   <div className="ed-course__bottom">
                     <div className="ed-course__teacher">
-                      <Image
+                      {/* <Image
                         width={28}
                         height={28}
                         src={course.teacherImage}
                         alt="course-instructor-thumb"
-                      />
+                      /> */}
                       <Link href="/course-1">{course.teacher}</Link>
                     </div>
-                    <span className="ed-course__price">${course.price}</span>
+                    {/* <span className="ed-course__price">${course.price}</span> */}
                   </div>
                 </div>
               </div>

@@ -88,18 +88,18 @@ const page = () => {
 
 
 
-      <Partner1 containerClass="ed-partner section-gap section-bg-color-1" />
-
+      
       <WhyChooseArea3 />
-      <Funfact2 />
-      {/* <Category2 /> */}
-      {/* <Course5 /> */}
-      {/* <CallToAction2 /> */}
-      {/* <Features1 /> */}
-      {/* <WhyChooseArea5 /> */}
-      {/* <Testimonial3 /> */}
+      <Funfact2 />  
+      <Course5 />
+      <Partner1 containerClass="ed-partner section-gap section-bg-color-1" />
+      <Category2 />
+      <CallToAction2 />
+      <Features1 />
+      <WhyChooseArea5 />
+      <Testimonial3 />
       {/* <Contact /> */}
-      {/* <Blog1 /> */}
+      <Blog1 />
     </SrCollegeLayout>
   );
 };

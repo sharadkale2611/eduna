@@ -56,17 +56,17 @@ export default function CollegeNewsPrograms() {
     {
       date: "10 Mar 2026",
       title: "National Seminar on Research Methodology",
-      url: "https://youtu.be/x2juH8lbtgM",
+      url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
     },
     {
       date: "20 Mar 2026",
       title: "Workshop on Career Guidance",
-      url: "https://youtu.be/x2juH8lbtgM",
+      url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
     },
     {
       date: "25 Mar 2026",
       title: "Inter-College Cultural Programme",
-      url: "https://youtu.be/x2juH8lbtgM",
+      url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
     },
   ];
 

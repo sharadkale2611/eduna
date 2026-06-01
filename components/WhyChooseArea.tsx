@@ -239,7 +239,7 @@ export const WhyChooseArea3 = () => {
                 <span className="ed-section-head__sm-title">WHO WE ARE</span>
                 <h3 className="ed-section-head__title ed-split-text left">
                   Transform Your Best Practice <br />
-                  with Our Online Course
+                  with Our  Course
                 </h3>
                 <p className="ed-section-head__text">
                   Excepteur sint occaecat cupidatat non proident sunt in culpa
@@ -313,7 +313,7 @@ export const WhyChooseArea3 = () => {
                 <div className="counter-card__info">
                   <h4>
                     <span className="counter">
-                      <Counter end={9394} />
+                      <Counter end={3000} />
                     </span>
                     +
                   </h4>

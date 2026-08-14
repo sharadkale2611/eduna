@@ -1,0 +1,389 @@
+/* ==========================================
+   NAAC PAGE - MODERN UNIVERSITY DESIGN
+========================================== */
+
+.naac-page {
+  max-width: 1400px;
+  margin: auto;
+  padding: 30px;
+  background: linear-gradient(
+    to bottom,
+    #f8fbff,
+    #eef5fc
+  );
+  min-height: 100vh;
+}
+
+/* ==========================================
+   HERO SECTION
+========================================== */
+
+.naac-hero {
+  background: linear-gradient(
+    135deg,
+    #0f4c81,
+    #1565c0,
+    #1e88e5
+  );
+
+  border-radius: 24px;
+  padding: 50px;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(255,255,255,.15);
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 10px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: rgba(255,255,255,.9);
+}
+
+.hero-description {
+  font-size: 17px;
+  line-height: 1.8;
+  max-width: 700px;
+  color: rgba(255,255,255,.9);
+}
+
+/* Right Side Stats */
+
+.hero-right {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 16px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,.15);
+
+  border-radius: 18px;
+  padding: 25px;
+  text-align: center;
+}
+
+.stat-card h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.stat-card span {
+  font-size: 14px;
+  opacity: .9;
+}
+
+/* Mobile */
+
+@media(max-width:900px){
+
+  .naac-hero{
+    grid-template-columns:1fr;
+    padding:30px;
+  }
+
+  .hero-title{
+    font-size:34px;
+  }
+
+  .hero-subtitle{
+    font-size:20px;
+  }
+
+  .hero-right{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+/* ==========================================
+   STATS
+========================================== */
+
+.naac-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 35px;
+  position: relative;
+  z-index: 2;
+}
+
+.stat-card {
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.18);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-card h2 {
+  margin: 0;
+  font-size: 42px;
+  color: #b3e5fc;
+}
+
+.stat-card span {
+  display: block;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+/* ==========================================
+   SECTION TITLE
+========================================== */
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.section-heading h2 {
+  color: #0f4c81;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.section-heading p {
+  color: #6b7280;
+}
+
+/* ==========================================
+   CRITERIA GRID
+========================================== */
+
+.criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+/* ==========================================
+   CRITERION CARD
+========================================== */
+
+.criterion-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 28px;
+  text-decoration: none;
+  color: inherit;
+  border-top: 5px solid #1e88e5;
+  box-shadow: 0 10px 30px rgba(15, 76, 129, 0.08);
+  transition: all 0.35s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.criterion-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(30, 136, 229, 0.18);
+}
+
+.criterion-card::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: -50px;
+  right: -50px;
+  background: rgba(30,136,229,0.05);
+  border-radius: 50%;
+}
+
+.criterion-badge {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    #0f4c81,
+    #1e88e5
+  );
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.criterion-card h3 {
+  color: #0f4c81;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.criterion-card p {
+  color: #555;
+  line-height: 1.7;
+}
+
+.view-btn {
+  display: inline-block;
+  margin-top: 15px;
+  color: #1e88e5;
+  font-weight: 600;
+}
+
+/* ==========================================
+   BOTTOM SECTION
+========================================== */
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 45px;
+}
+
+.info-card {
+  background: white;
+  border-radius: 24px;
+  padding: 25px;
+  border-top: 5px solid #00bcd4;
+  box-shadow: 0 10px 30px rgba(15, 76, 129, 0.08);
+}
+
+.card-header {
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e3f2fd;
+}
+
+.card-header h3 {
+  color: #0f4c81;
+  margin: 0;
+}
+
+.list-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 0;
+  text-decoration: none;
+  color: #374151;
+  border-bottom: 1px solid #eef2f7;
+  transition: all .3s ease;
+}
+
+.list-link:last-child {
+  border-bottom: none;
+}
+
+.list-link:hover {
+  color: #1e88e5;
+  padding-left: 10px;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 992px) {
+  .naac-hero {
+    padding: 35px;
+  }
+
+  .naac-hero h1 {
+    font-size: 34px;
+  }
+
+  .naac-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottom-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .naac-page {
+    padding: 15px;
+  }
+
+  .naac-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .criteria-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .naac-hero h1 {
+    font-size: 28px;
+  }
+
+  .section-heading h2 {
+    font-size: 28px;
+  }
+}
+
+.hero-stats-small {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+/* BASE SMALL CARD */
+.stat-card-small {
+  padding: 10px 12px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 100px;
+  color: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+}
+
+/* GRADE CARD (GREEN - SUCCESS FEEL) */
+.stat-card-small.grade {
+  background: linear-gradient(135deg, #16a34a, #22c55e);
+}
+
+/* YEAR CARD (BLUE - ACADEMIC FEEL) */
+.stat-card-small.year {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+/* TEXT FIX */
+.stat-card-small h3 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.stat-card-small span {
+  font-size: 11px;
+  opacity: 0.9;
+}

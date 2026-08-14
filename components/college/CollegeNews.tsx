@@ -14,40 +14,40 @@ export default function CollegeNewsPrograms() {
 
   const news = [
     {
-      date: "05 Mar 2026",
+      date: "2026",
       title: "Admission Notice for Academic Year 2025–26",
-      image: "https://picsum.photos/900/600?1",
+      image: "https://enrollonline.co.in/Registration/Apply/SBESC",
     },
-    {
-      date: "18 Feb 2026",
-      title: "NAAC Peer Team Visit Schedule Announced",
-      image: "https://picsum.photos/900/600?2",
-    },
-    {
-      date: "02 Jan 2026",
-      title: "College will remain closed on account of Public Holiday",
-      image: "https://picsum.photos/900/600?3",
-    },
+    // {
+    //   date: "18 Feb 2026",
+    //   title: "NAAC Peer Team Visit Schedule Announced",
+    //   image: "#",
+    // },
+    // {
+    //   date: "02 Jan 2026",
+    //   title: "College will remain closed on account of Public Holiday",
+    //   image: "#",
+    // },
   ];
 
   /* ---------------- Programmes Data ---------------- */
 
-  const programmes = [
-    {
-      date: "10 Mar 2026",
-      title: "National Seminar on Research Methodology",
-      image: "https://picsum.photos/900/600?4",
-    },
-    {
-      date: "20 Mar 2026",
-      title: "Workshop on Career Guidance for Final Year Students",
-      image: "https://picsum.photos/900/600?5",
-    },
-    {
-      date: "25 Mar 2026",
-      title: "Inter-College Cultural Programme",
-      image: "https://picsum.photos/900/600?6",
-    },
+  const programmes:any = [
+    // {
+    //   date: "10 Mar 2026",
+    //   title: "National Seminar on Research Methodology",
+    //   image: "https://picsum.photos/900/600?4",
+    // },
+    // {
+    //   date: "20 Mar 2026",
+    //   title: "Workshop on Career Guidance for Final Year Students",
+    //   image: "#",
+    // },
+    // {
+    //   date: "25 Mar 2026",
+    //   title: "Inter-College Cultural Programme",
+    //   image: "#",
+    // },
   ];
 
   /* ---------------- Videos Data ---------------- */
@@ -56,18 +56,18 @@ export default function CollegeNewsPrograms() {
     {
       date: "10 Mar 2026",
       title: "National Seminar on Research Methodology",
-      url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
+      url: "#",
     },
-    {
-      date: "20 Mar 2026",
-      title: "Workshop on Career Guidance",
-      url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
-    },
-    {
-      date: "25 Mar 2026",
-      title: "Inter-College Cultural Programme",
-      url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
-    },
+    // {
+    //   date: "20 Mar 2026",
+    //   title: "Workshop on Career Guidance",
+    //   url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
+    // },
+    // {
+    //   date: "25 Mar 2026",
+    //   title: "Inter-College Cultural Programme",
+    //   url: "https://youtube.com/@sbescollegeofartscommerce?si=jUlLkwI49QpjsXFc",
+    // },
   ];
 
   return (
@@ -109,7 +109,7 @@ export default function CollegeNewsPrograms() {
 
               <ul className="updates-list">
 
-                {programmes.map((item, index) => (
+                {programmes.map((item:any, index:any) => (
                   <li
                     key={index}
                     onClick={() => setActiveImage(item.image)}

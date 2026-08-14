@@ -10,7 +10,7 @@ export default function SrCollegeHeader() {
     return (
         <header className="header">
 
-            {/* Top Info Bar */}
+            {/* Top Info Bar
             <div className="topbar">
                 <div className="container">
                     <div className="topbar-left">
@@ -21,7 +21,7 @@ export default function SrCollegeHeader() {
                         <span>sbescollegeac@yahoo.com</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             {/* Main Identity */}
             <div className="identity container">
@@ -35,7 +35,7 @@ export default function SrCollegeHeader() {
 
                     <div className="brand-text">
                         <p className="society-name">
-                            Shree Saraswati Bhuvan Education Society's
+                            Shree Saraswati Bhuvan Education Society
                         </p>
                         <h1>SBES College of Arts & Commerce</h1>
                         <p className="accreditation">
@@ -73,22 +73,53 @@ export default function SrCollegeHeader() {
                     <ul className={`menu ${menuOpen ? "open" : ""}`}>
                         <li><Link href="/">Home</Link></li>
                         <li className="menu-item-has-children">
-                          <Link href="/programme">Programme</Link>
+                        <Link href="/srcollege">Programme</Link>
                           <ul className="sub-menu">
-                            <li><Link href="/UG">Under Graduation</Link></li>
-                            <li><Link href="/PG">Post Graduation</Link></li>
-                            <li><Link href="/BBA">PhD</Link></li>
-                            <li><Link href="/BCA">Certificates</Link>
+                            <li><Link href="/srcollege/ug">Under Graduation</Link></li>
+                            <li><Link href="/srcollege/pg">Post Graduation</Link></li>
+                            <li><Link href="/srcollege/phd">Ph.D</Link></li>
+                            <li><Link href="/srcollege/certificates">Certificates</Link>
                         </li>
                      </ul>
                         </li>
 
-                        <li><Link href="/department">Department</Link></li>
-                         <li><Link href="/faculty">Falulty</Link></li>
+                        <li><Link href="/srcollege/department">Department</Link></li>
+                         <li><Link href="/srcollege/faculty">Faculty</Link></li>
                         <li><Link href="/srcollege/facilities">Facilities</Link></li>
                         <li><Link href="/srcollege/student ">Student </Link></li>
-                        <li><Link href="/Research ">Research </Link></li>
-                        <li><Link href="/library ">Library </Link></li>
+                        
+                        <li className="menu-item-has-children">
+                        <Link href="#">Research</Link>
+
+                                <ul className="sub-menu">
+                                    <li>
+                                    <Link href="/srcollege/research-center">
+                                        Research Centre
+                                    </Link>
+                                    </li>
+
+                                    
+                                    <li>
+                                    <Link href="/srcollege/research-projects">
+                                        Research Projects
+                                    </Link>
+                                    </li>
+
+                                    <li>
+                                    <Link href="/srcollege/publications">
+                                        Publications
+                                    </Link>
+                                    </li>
+                                    <li>
+                                    <Link href="/srcollege/research-guids">
+                                        Research Guids
+                                    </Link>
+                                    </li>
+
+                                   
+                                </ul>
+                                </li>
+                        <li><Link href="/srcollege/library ">Library </Link></li>
                         <li><Link href="/srcollege/naac ">NAAC </Link></li>
                         <li><Link href="/srcollege/contact">Contact </Link></li>
                     </ul>

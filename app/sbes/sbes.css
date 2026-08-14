@@ -1,3 +1,14 @@
+    
+/* ==================================================
+   GLOBAL FONT & TEXT
+================================================== */
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #111111;
+    background: #ffffff;
+}
+
 /* ==================================================
    SECTION BASE
 ================================================== */
@@ -27,7 +38,9 @@
     align-items: center;
 }
 
-/* Image */
+/* ==================================================
+   IMAGE
+================================================== */
 
 .about-image {
     position: relative;
@@ -51,18 +64,21 @@
     z-index: -1;
 }
 
-/* Content */
+/* ==================================================
+   CONTENT
+================================================== */
 
 .about-content {
     max-width: 500px;
 }
 
 .about-content h2 {
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     margin-bottom: 20px;
     position: relative;
     padding-left: 16px;
+    color: #000000;
 }
 
 .about-content h2::before {
@@ -77,8 +93,9 @@
 
 .about-content p {
     font-size: 16px;
-    line-height: 1.7;
-    color: #555;
+    line-height: 1.8;
+    color: #111111;
+    font-weight: 400;
 }
 
 /* ==================================================
@@ -109,12 +126,14 @@
 .about-stats h3 {
     font-size: 24px;
     margin-bottom: 6px;
-    font-weight: 600;
+    font-weight: 700;
+    color: #000000;
 }
 
 .about-stats span {
     font-size: 13px;
-    color: #666;
+    color: #111111;
+    font-weight: 500;
 }
 
 /* ==================================================
@@ -148,15 +167,16 @@
 }
 
 .side-card h4 {
-    margin-bottom: 8px;
-    font-size: 18px;
-    color: var(--primary);
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
 }
 
 .side-card p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.6;
+    font-size: 15px;
+    color: #111111;
+    line-height: 1.8;
 }
 
 /* ==================================================
@@ -175,9 +195,11 @@
 }
 
 .story-title {
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 30px;
     position: relative;
+    color: #000000;
+    font-weight: 700;
 }
 
 .story-title::after {
@@ -193,11 +215,16 @@
     background: #ffffff;
     padding: 40px;
     border-radius: 12px;
-    line-height: 1.8;
-    color: #444;
-    font-size: 15px;
+    line-height: 1.9;
+    color: #111111;
+    font-size: 16px;
     text-align: left;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+.story-content p {
+    color: #111111;
+    margin-bottom: 20px;
 }
 
 /* ==================================================
@@ -227,17 +254,19 @@
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 12px;
-    border: 3px solid #eee;
+    border: 3px solid #eeeeee;
 }
 
 .team-card h6 {
     font-size: 15px;
     margin-bottom: 4px;
+    color: #000000;
+    font-weight: 600;
 }
 
 .team-card p {
     font-size: 13px;
-    color: #777;
+    color: #111111;
 }
 
 /* ==================================================
@@ -250,9 +279,11 @@
 
 .table-section h4 {
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 40px;
     position: relative;
+    color: #000000;
+    font-weight: 700;
 }
 
 .table-section h4::after {
@@ -286,12 +317,14 @@
     color: #ffffff;
     padding: 16px;
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .governance-table td {
     padding: 16px;
     border-bottom: 1px solid #f0f0f0;
+    color: #111111;
+    font-weight: 500;
 }
 
 .governance-table tr:nth-child(even) {
@@ -344,4 +377,9 @@
     .team-grid {
         grid-template-columns: 1fr;
     }
+
+    .story-content {
+        padding: 24px;
+    }
 }
+

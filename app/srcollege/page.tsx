@@ -1,106 +1,161 @@
-import { Blog1 } from "@/components/Blog";
-import { CallToAction2 } from "@/components/CallToAction";
-import { Category2 } from "@/components/Category";
-import Contact from "@/components/Contact";
-import { Course5 } from "@/components/Course";
-import { Features1 } from "@/components/Features";
-import { Funfact2 } from "@/components/Funfact";
-import { Partner1 } from "@/components/Partner";
+"use client";
+
+import { useState, useEffect } from "react";
 import SrCollegeLayout from "@/components/sr-college/SrCollegeLayout";
-import { Testimonial3 } from "@/components/Testimonial";
-import { WhyChooseArea3, WhyChooseArea5 } from "@/components/WhyChooseArea";
-import EdunaLayout from "@/layout/EdunaLayout";
-import Link from "next/link";
-const page = () => {
+import { WhyChooseArea3 } from "@/components/WhyChooseArea";
+import { Funfact2 } from "@/components/Funfact";
+
+const slides = [
+  "/assets/images/slider/srslider1.jpg",
+  "/assets/images/slider/srslider2.jpg",
+  "/assets/images/slider/srslider3.jpg",
+  "/assets/images/slider/srslider4.jpg",
+  "/assets/images/slider/srslider5.jpg",
+];
+
+const Page = () => {
+  const [current, setCurrent] = useState(0);
+
+  // Next Slide
+  const nextSlide = () => {
+    setCurrent((prev) => (prev + 1) % slides.length);
+  };
+
+  // Previous Slide
+  const prevSlide = () => {
+    setCurrent((prev) =>
+      prev === 0 ? slides.length - 1 : prev - 1
+    );
+  };
+
+  // Auto Slide
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <SrCollegeLayout>
-      {/* <section className="ed-hero ed-hero--style3">
-        <div className="owl-carousel ed-hero__slider">
-          Single Slider 
-          <div className="ed-hero__slider-item">
-            <img
-              src="assets/images/hero/home-3/hero-img-1.jpg"
-              alt="hero-img-1"
-            />
-          </div>
-          Single Slider 
-          <div className="ed-hero__slider-item">
-            <img
-              src="assets/images/hero/home-3/hero-img-2.jpg"
-              alt="hero-img-2"
-            />
-          </div>
-          Single Slider 
-          <div className="ed-hero__slider-item">
-            <img
-              src="assets/images/hero/home-3/hero-img-3.jpg"
-              alt="hero-img-3"
-            />
-          </div>
+      {/* Slider Section */}
+      <section className="slider-section">
+        {slides.map((slide, index) => (
+          <div
+            key={index}
+            className={`slide ${index === current ? "active" : ""}`}
+            style={{
+              backgroundImage: `url(${slide})`,
+            }}
+          />
+        ))}
+
+        {/* Overlay */}
+        <div className="overlay">
+          {/* Left Arrow */}
+          <button className="arrow left" onClick={prevSlide}>
+            ❮
+          </button>
+
+          {/* Right Arrow */}
+          <button className="arrow right" onClick={nextSlide}>
+            ❯
+          </button>
         </div>
-        <div className="container ed-container-expand">
-          <div className="row justify-content-center">
-            <div className="col-lg-7 col-12">
-              Hero Content
-              <div className="ed-hero__content text-center">
-                <h1 className="ed-hero__content-title text-white ed-split-text left">
-                  Start Your Learning <br />
-                  Journey Now
-                </h1>
-                <div className="ed-hero__search p-0">
-                  <form
-                    action="#"
-                    method="post"
-                    className="ed-hero__search-form"
-                  >
-                    <input
-                      type="search"
-                      name="search"
-                      placeholder="Search your courses"
-                      required={true}
-                    />
-                    <button type="submit">
-                      Search
-                      <i className="fi-rr-search" />
-                    </button>
-                  </form>
-                  <ul className="ed-hero__tags justify-content-center">
-                    <li>
-                      <Link href="/course-1">Business</Link>
-                    </li>
-                    <li>
-                      <Link href="/course-1">Marketing</Link>
-                    </li>
-                    <li>
-                      <Link href="/course-1">Design</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
+      </section>
 
-
-
-
-
-
-
-      
+      {/* Other Sections */}
       <WhyChooseArea3 />
-      <Funfact2 />  
-      <Course5 />
-      <Partner1 containerClass="ed-partner section-gap section-bg-color-1" />
-      <Category2 />
-      <CallToAction2 />
-      <Features1 />
-      <WhyChooseArea5 />
-      <Testimonial3 />
-      {/* <Contact /> */}
-      <Blog1 />
+      <Funfact2 />
+
+      {/* CSS */}
+      <style>{`
+        .slider-section {
+          width: 100%;
+          height: 100vh;
+          position: relative;
+          overflow: hidden;
+        }
+
+        .slide {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background-size: cover;
+          background-position: center;
+          opacity: 0;
+          transition: opacity 1s ease-in-out;
+        }
+
+        .slide.active {
+          opacity: 1;
+          z-index: 1;
+        }
+
+        .overlay {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.2);
+          z-index: 2;
+        }
+
+        .arrow {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 55px;
+          height: 55px;
+          border: none;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.8);
+          color: #000;
+          font-size: 28px;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          z-index: 3;
+        }
+
+        .arrow:hover {
+          background: #000;
+          color: #fff;
+        }
+
+        .left {
+          left: 20px;
+        }
+
+        .right {
+          right: 20px;
+        }
+
+        @media (max-width: 768px) {
+          .slider-section {
+            height: 60vh;
+          }
+
+          .arrow {
+            width: 45px;
+            height: 45px;
+            font-size: 20px;
+          }
+
+          .left {
+            left: 10px;
+          }
+
+          .right {
+            right: 10px;
+          }
+        }
+      `}</style>
     </SrCollegeLayout>
   );
 };
-export default page;
+
+export default Page;

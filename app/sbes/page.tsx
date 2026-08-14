@@ -85,10 +85,10 @@ export default function AboutPage() {
                 <span>Girls Hostel</span>
               </div>
 
-              <div>
+              {/* <div>
                 <h3>1</h3>
                 <span>Boys Hostel</span>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -13,8 +13,8 @@ export default function CollegeFooter() {
                         <ul>
                             <li><Link href="/other-links/rti.pdf" target="blank">RTI</Link></li>
                              <li><Link href="/other-links/icc.pdf" target="blank">ICC</Link></li>
-                             <li><Link href="/other-links/Anti-Ragging.pdf" target="blank">Anti-Ragging</Link></li>
-                             <li><Link href="//other-links/Grievance-Redressal.pdf" target="blank">Grievance Redressal</Link></li>
+                             <li><Link href="/srcollege/student">Anti-Ragging</Link></li>
+                             <li><Link href="/assets/student/Grievance.pdf" target="blank">Grievance Redressal</Link></li>
                         </ul>
                     </div>
 

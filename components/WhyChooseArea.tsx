@@ -236,14 +236,15 @@ export const WhyChooseArea3 = () => {
           <div className="col-lg-6 col-12">
             <div className="ed-w-choose__content">
               <div className="ed-section-head">
-                <span className="ed-section-head__sm-title">WHO WE ARE</span>
+                {/* <span className="ed-section-head__sm-title">WHO WE ARE</span> */}
                 <h3 className="ed-section-head__title ed-split-text left">
-                  Transform Your Best Practice <br />
-                  with Our  Course
+                  Best College in City
                 </h3>
                 <p className="ed-section-head__text">
-                  Excepteur sint occaecat cupidatat non proident sunt in culpa
-                  qui officia deserunt mollit. Excepteur sint occaecat.
+                  SBES College of Arts and Commerce provides and develops the skill set requirements of 
+                  the students necessary to face the challenges of the times. The society and the college
+                   have a long and distinguished history in the domain of education, which is increasingly 
+                   becoming challenging, interesting and dynamic learning experience.
                 </p>
               </div>
               <div className="ed-w-choose__info">
@@ -260,13 +261,12 @@ export const WhyChooseArea3 = () => {
                   </div>
                   <div className="ed-w-choose__info-bottom">
                     <p>
-                      Excepteur sint occaecat cupidatat non proident sunt in
-                      culpa qui officia for this is a for that an deserunt
-                      mollit.
+                      "To provide besides formal education, the professional and career oriented courses to be 
+                      persuaded simultaneously to compliment traditional, fundamental and liberal education."
                     </p>
                   </div>
                 </div>
-                {/* Single Info  */}
+                {/* Single Info 
                 <div className="ed-w-choose__info-single">
                   <div className="ed-w-choose__info-head">
                     <div className="ed-w-choose__info-icon bg-2">
@@ -284,7 +284,7 @@ export const WhyChooseArea3 = () => {
                       mollit.
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -294,16 +294,17 @@ export const WhyChooseArea3 = () => {
               <div className="ed-w-choose__main-img--style2 position-relative">
                 <img
                   className="why-choose-img-1"
-                  src="assets/images/why-choose/why-choose-3/img-1.png"
+                  // src="assets/images/why-choose/why-choose-3/img-1.png"
+                   src="assets/images/hero/facetoface.jpg"
                   alt="why-choose-img-1"
                 />
 
-                <p></p>
-                <img
+                {/* <p></p> */}
+                {/* <img
                   className="why-choose-img-2"
                   src="assets/images/why-choose/why-choose-3/img-2.png"
                   alt="why-choose-img-2"
-                />
+                /> */}
               </div>
               {/* Counter Card */}
               <div className="counter-card updown-ani">

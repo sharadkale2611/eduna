@@ -20,6 +20,7 @@ const slides = [
 export default function HomePage() {
   const [current, setCurrent] = useState(0);
   const [visitorCount, setVisitorCount] = useState(210356);
+  const START_COUNT = 210356;
 
   const nextSlide = () => {
     setCurrent((prev) => (prev + 1) % slides.length);

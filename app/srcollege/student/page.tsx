@@ -36,7 +36,7 @@ export default function StudentPage() {
     Scholarship: {
       "Government of India": (
         <div>
-        <p align="justify">The government of India provides three scholarships schemes for UG and PG students. The details of these schemes are available on the exclusive portal NSP created by the government. Students must register and upload the required documents on it and chose the scheme for which they are eligible after online application submission these students must take printout of the submitted form and submit hardcopy of it along with the required documents like caste certificate/income certificate/domicile certificate/photocopy of bank passbook/Aadhar card/marks sheet/admission receipt/photocopy of leaving certificate in the scholarship section of our college. Scholarships of eligible students are disbursed by the concerned government departments.”.</p>
+        <p className="text-justify">The government of India provides three scholarships schemes for UG and PG students. The details of these schemes are available on the exclusive portal NSP created by the government. Students must register and upload the required documents on it and chose the scheme for which they are eligible after online application submission these students must take printout of the submitted form and submit hardcopy of it along with the required documents like caste certificate/income certificate/domicile certificate/photocopy of bank passbook/Aadhar card/marks sheet/admission receipt/photocopy of leaving certificate in the scholarship section of our college. Scholarships of eligible students are disbursed by the concerned government departments.”.</p>
         <p>&nbsp;</p>
         <p>&rArr; Post Matric Scholarship scheme for Minorities</p>
         <p>&rArr; Central Sector Scheme of Scholarship</p>
@@ -73,7 +73,7 @@ export default function StudentPage() {
       "Instituted by Philanthropists": (
         <div>
         <h2>Donation Deposit Scheme for Prizes to students Instituted by Philanthropists</h2>
-            <table class="table1 table-bordered">
+            <table className="table1 table-bordered">
                 <thead>
                   <tr>          
                     <th>Sr No </th>
@@ -432,7 +432,7 @@ export default function StudentPage() {
       Feedback: (
         <div>
         <h2>Donation Deposit Scheme for Prizes to students Instituted by Philanthropists</h2>
-            <table class="table2 table-bordered">
+            <table className="table2 table-bordered">
                 <thead>
                   <tr>          
                     <th>Sr No </th>
@@ -687,7 +687,7 @@ export default function StudentPage() {
       {
         leftMenuData[
           activeLeft as keyof typeof leftMenuData
-        ][activeLeftSub]
+        ][activeLeftSub as keyof typeof leftMenuData[keyof typeof leftMenuData]]
       }
     </>
   )}
@@ -697,7 +697,7 @@ export default function StudentPage() {
       {
         rightMenuData[
           activeRight as keyof typeof rightMenuData
-        ][activeRightSub]
+        ][activeRightSub as keyof typeof rightMenuData[keyof typeof rightMenuData]]
       }
     </>
   )}

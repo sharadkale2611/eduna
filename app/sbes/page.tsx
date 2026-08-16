@@ -20,7 +20,7 @@ export default function AboutPage() {
           </div>
 
           {/* Right Content */}
-          <div className="about-content" align="justify">
+          <div className="about-content text-justify">
             <h2>About Us</h2>
             <p>
               Established in 1915, Saraswati Bhuvan Education Society has immensely
@@ -96,7 +96,7 @@ export default function AboutPage() {
           <div className="about-side">
             <div className="side-card">
               <h4>Our Vision</h4>
-              <p align="justify">
+              <p className="text-justify">
                 To be a leading educational institution committed to holistic development, 
                 academic excellence, and strong moral values, fostering skilled, responsible, 
                 and socially conscious citizens dedicated to nation-building and societal progress.
@@ -105,7 +105,7 @@ export default function AboutPage() {
 
             <div className="side-card">
               <h4>Our Commitment</h4>
-              <p align="justify">
+              <p className="text-justify">
                 At Shri Saraswati Bhuvan Shikshan Sanstha, our commitment is to provide value-based, 
                 inclusive, and progressive education that nurtures the all-round development of every student. 
                 Rooted in our rich legacy since 1915, we strive to combine traditional knowledge with modern 
@@ -131,7 +131,7 @@ export default function AboutPage() {
           <h2 className="story-title">History</h2>
 
           <div className="story-content" >
-            <p align="justify">
+            <p className="text-justify">
              Before independence, ‘Marathwada’ was a part of the ‘Hyderabad State’, 
              which was under the rule of the ‘Nizam.’ The medium of education was ‘Urdu’, 
              and teaching in ‘Marathi’ was considered a challenge by the Nizam’s government. 
@@ -147,7 +147,7 @@ export default function AboutPage() {
 
               </p>
               
-              <p align="Justify">
+              <p className="text-justify">
                 The founders of our institution were committed to values and the moral framework, and this 
                 tradition continues to till date. One of the former Secretaries of the institution and Member 
                 of Parliament Late Bhauseheb Vaishampayan made relentless efforts for the institution’s expansion 

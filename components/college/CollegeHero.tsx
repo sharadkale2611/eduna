@@ -1,9 +1,7 @@
 "use client";
 
-import Link from "next/link";
-
-
-
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
 
 const slides = [
     {

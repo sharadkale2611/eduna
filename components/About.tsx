@@ -243,6 +243,7 @@ export const About2 = () => {
           </div>
         </div>
       </div>
+      </div>
     </section>
   );
 };

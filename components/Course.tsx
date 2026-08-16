@@ -621,13 +621,13 @@ export const Course5 = () => {
     id: number;
     name: string;
     title: string;
-    // lessons: number;
-    // reviews: number;
-    // students: number;
-    // teacher?: string;
-    // teacherImage?: string;
-    // price?: number;
-    // image: string;
+    lessons?: number;
+    reviews?: number;
+    students?: number;
+    teacher?: string;
+    teacherImage?: string;
+    price?: number;
+    image: string;
   }[] = [
     {
       id: 1,

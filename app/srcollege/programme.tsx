@@ -5,7 +5,7 @@ import Contact from "@/components/Contact";
 import { Course5 } from "@/components/Course";
 import { Features1 } from "@/components/Features";
 import { Funfact2 } from "@/components/Funfact";
-import { Partner1 } from "@/components/Partner";
+// import { Partner1 } from "@/components/Partner";
 import SrCollegeLayout from "@/components/sr-college/SrCollegeLayout";
 import { Testimonial3 } from "@/components/Testimonial";
 import { WhyChooseArea3, WhyChooseArea5 } from "@/components/WhyChooseArea";
@@ -85,7 +85,7 @@ const page = () => {
       <WhyChooseArea3 />
       <Funfact2 />  
       {/* <Course5 /> */}
-      <Partner1 containerClass="ed-partner section-gap section-bg-color-1" />
+      {/* <Partner1 containerClass="ed-partner section-gap section-bg-color-1" /> */}
       <Category2 />
       {/* <CallToAction2 /> */}
       <Features1 />

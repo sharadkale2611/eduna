@@ -39,7 +39,7 @@ export default function LibraryPage() {
     ),
 
     "Library at Glance  ": 
-      <p><div class="library-info">
+      <p><div className="library-info">
           <table>
             <tbody>
               <tr>
@@ -103,10 +103,10 @@ export default function LibraryPage() {
     
    "Unique Collection in Library":
    <p> 
-    <section class="unique-library">
+    <section className="unique-library">
   <h2>📚 </h2>
 
-  <div class="collection-box">
+  <div className="collection-box">
     <ul>
       <li>Dr. Babasaheb Ambedkar Writing and Speeches</li>
       <li>Sri Aurobindo</li>
@@ -154,10 +154,10 @@ export default function LibraryPage() {
 "Highlight of the Library":
     
     <p> 
-    <section class="unique-library">
+    <section className="unique-library">
      <h2>📚 </h2>
 
-          <div class="collection-box">
+          <div className="collection-box">
             <ul>
               <li> Separate building for library.s</li>
               <li>Separate reading rooms for staff and student.</li>

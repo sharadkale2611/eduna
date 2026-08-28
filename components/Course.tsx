@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// hello
 const Course1 = () => {
   const courses: {
     id: number;

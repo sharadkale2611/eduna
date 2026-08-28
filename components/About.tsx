@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Counter from "./Counter";
 
+// hello
 export const About1 = () => {
   const features: string[] = [
     "Our Expert Trainers",

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
+// hello
 export const Hero1 = () => {
   return (
     <div
